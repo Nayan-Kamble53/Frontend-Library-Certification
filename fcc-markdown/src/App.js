@@ -4,10 +4,13 @@ import './App.css';
 
 function App() {
   const [text, setText] = useState(`
-  # H1
-  ## H2
+  # This is heading 1 (H1)
+  ## This is heading 1 (H2)
+
   [title](https://www.example.com)
+
   \`code\`
+
   \`\`\`
   {
     "firstName": "Virat",
@@ -22,7 +25,7 @@ function App() {
 
   > blockquote
 
-  ![alt text](image.jpg)
+  ![image](image.png)
 
   **bold text**
   `);
